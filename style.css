@@ -1,0 +1,64 @@
+@font-face{
+    font-family: 'Another-Font';
+    src: url(./Quick\ Cat.ttf);
+
+}
+body{
+    background-color: beige;
+}
+.wripper{
+   
+}
+.google-font{
+    
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    max-width: 1000px;
+    border: 2px solid red;
+    margin-bottom: 10px;
+}
+.another-font{
+    font-family: 'Another-Font';
+    font-weight: 500;
+    font-size: 20px;
+    max-width: 1000px;
+    border: 2px solid red;
+
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+.fa-poo{
+    font-size: 50px;
+    animation-name: anim;
+    animation: anim 0.7s linear infinite;
+    position: relative;
+    animation-fill-mode: forwards;
+
+}
+
+
+@keyframes anim {
+    0%{
+        transform: rotate(0deg);
+        left: 40px;
+        
+
+    }
+    50%{
+        transform: rotate(180deg);
+        top: 40px;
+     
+
+    }
+    100%{
+        transform: rotate(360deg);
+        
+
+    }
+    
+}
